@@ -19,7 +19,21 @@ Patient portals can require users to navigate complex menus and unfamiliar termi
 - **User control:** confirmation prompts are part of the design before actions, and accessibility adaptation uses explicit user-selected preferences.
 - **Human-centered research:** the presentation describes patient-portal survey and interview work and personas to explore navigation friction and accessibility needs.
 
+## Survey findings
+
+The report presents survey graphics for **16 participants**. The figures report that **12 of 16** found navigation difficult, **11 of 16** reported that small text affected usability, and **13 of 16** preferred a chat-based interface. These are small-sample, self-reported design insights, not evidence of clinical effectiveness.
+
+![Survey visualization of patient-portal usability challenges](assets/survey-challenges.png)
+
+![Survey visualization of conversational preferences and privacy considerations](assets/survey-preferences.png)
+
+*Original survey visualizations from the project report; percentages in the source are rounded and one displayed percentage is inconsistent with its count.*
+
 ## Proposed system architecture
+
+![System architecture from the capstone report](assets/system-architecture.png)
+
+*Original architecture diagram from the report. It represents the broader proposed design, including future capabilities and security goals; it is not evidence of production deployment or verified compliance.*
 
 ```mermaid
 flowchart TD
@@ -40,9 +54,13 @@ The capstone materials document an accessibility-focused design, proposed archit
 
 **Future work:** broader accessibility testing, voice and multilingual support, additional workflows and integration with live healthcare environments.
 
+## Project report
+
+[Read the capstone report](docs/capstone-report.pdf). The original report includes proposed architecture and forward-looking claims; the scope and limitations below clarify what can be established from the available materials.
+
 ## Status and limitations
 
-- This repository is a **project showcase**; source code, datasets, runnable application and evaluation artifacts are not currently included.
+- This repository is a **project showcase**; source code, datasets and a runnable application are not currently included.
 - Live Epic MyChart integration is identified as future work. The materials do not establish production deployment or independently verified HIPAA compliance.
 - The assistant is intended for supportive navigation and is not a substitute for professional medical advice or clinical decision-making.
 - No patient data or interview transcripts are included in this repository.
