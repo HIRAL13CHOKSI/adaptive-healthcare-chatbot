@@ -19,6 +19,24 @@ Patient portals can require users to navigate complex menus and unfamiliar termi
 - **User control:** confirmation prompts are part of the design before actions, and accessibility adaptation uses explicit user-selected preferences.
 - **Human-centered research:** the presentation describes patient-portal survey and interview work and personas to explore navigation friction and accessibility needs.
 
+## Prototype screenshots
+
+The screenshots below come from the capstone presentation and show the local patient-portal prototype. Patient details shown are fictional demo data.
+
+![Patient portal dashboard and chatbot](assets/prototype-dashboard.png)
+
+*Dashboard with the embedded assistant and accessibility mode controls.*
+
+![Chatbot answering an appointment question](assets/prototype-appointment-chat.png)
+
+*Example conversation about an upcoming appointment.*
+
+| Guided mode | Vision mode |
+| --- | --- |
+| ![Guided accessibility mode](assets/prototype-guided-mode.png) | ![Vision accessibility mode](assets/prototype-vision-mode.png) |
+
+*The presentation shows how the interface adapts its guidance and text presentation.*
+
 ## Survey findings
 
 The report presents survey graphics for **16 participants**. The figures report that **12 of 16** found navigation difficult, **11 of 16** reported that small text affected usability, and **13 of 16** preferred a chat-based interface. These are small-sample, self-reported design insights, not evidence of clinical effectiveness.
